@@ -1,0 +1,53 @@
+{
+  "name": "pindapfs",
+  "version": "0.0.5",
+  "title": "Pindap File Server",
+  "description": "File management and hosting for Pindap image board.",
+  "keywords": [
+    "file",
+    "upload",
+    "cross-domain",
+    "cross-site",
+    "node"
+  ],
+  "homepage": "https://github.com/maxenko/pindap.file.server",
+  "author": {
+    "name": "Maxim Ostapenko",
+    "url": "https://enkolab.com"
+  },
+  "maintainers": [
+    {
+      "name": "Max Enko",
+      "url": "http://enkolab.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxenko/pindap.file.server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxenko/pindap.file.server/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+      "underscore" : "*",
+      "async" : "*",
+      "formidable": ">=1.0.11",
+      "node-static": ">=0.6.5",
+      "imagemagick": ">=0.1.3",
+      "couchnode": "0.1.0"
+
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "readme": "readme.md",
+  "_id": "pindap.file.server@0.5",
+  "_from": "maxenko@live.com"
+}
