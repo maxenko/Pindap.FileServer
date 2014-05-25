@@ -10,7 +10,7 @@
     "cross-site",
     "node"
   ],
-  "homepage": "https://github.com/maxenko/pindap.file.server",
+  "homepage": "https://github.com/maxenko/Pindap.FileServer",
   "author": {
     "name": "Maxim Ostapenko",
     "url": "https://enkolab.com"
@@ -23,10 +23,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxenko/pindap.file.server.git"
+    "url": "git://github.com/maxenko/Pindap.FileServer.git"
   },
   "bugs": {
-    "url": "https://github.com/maxenko/pindap.file.server/issues"
+    "url": "https://github.com/maxenko/Pindap.FileServer/issues"
   },
   "licenses": [
     {
@@ -48,6 +48,6 @@
     "start": "node server.js"
   },
   "readme": "readme.md",
-  "_id": "pindap.file.server@0.5",
+  "_id": "Pindap.FileServer@0.5",
   "_from": "maxenko@live.com"
 }
